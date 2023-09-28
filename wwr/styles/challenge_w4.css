@@ -1,19 +1,30 @@
 body {
     background-color: lightblue;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
 }
 h1 {
     text-align: center;
     color: black;
 }
 ul { 
+    
+    display: block;
     text-align: center;
 }
+
 p {
     text-align: center;
 }
 img {
-    width: 500px;
-    height: 500px;
+    width: 215px;
+    height: 215px;
     margin: 0 auto;
     display: block;
+    margin-bottom: 80px;
+}
+footer {
+    text-align: center;
+    margin-top: 60px;
 }
