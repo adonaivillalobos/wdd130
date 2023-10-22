@@ -167,6 +167,7 @@ nav {
 .rivers-card {
     grid-column: 2/4;
     grid-row: 2/3;
+    transition: 1s;
 }
 .camping-card {
     grid-column: 5/7;
