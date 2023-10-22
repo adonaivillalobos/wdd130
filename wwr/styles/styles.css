@@ -39,8 +39,9 @@ header {
     display: grid;
     background-color: seagreen;
     font-family: "Exo 2";
-    display: grid;
     grid-template-columns: 150px 0;
+    justify-self: center;
+    align-self: center;
 }
 nav a:hover {
     background-color: white;
