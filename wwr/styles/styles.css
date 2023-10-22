@@ -23,6 +23,8 @@ main section img {
 #background {
     height: 725px;
     background-color: lightblue;
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 body {
     background-color: lightblue;
@@ -60,12 +62,17 @@ nav a:hover {
     background-color: green;
     line-height: 1.5em;
     padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
 }
 footer {
     background-color: skyblue;
     color: white;
     padding: 25px 50px;
     margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .home-title {
     color: black;
@@ -144,5 +151,23 @@ nav {
 #home-grid {
     display: grid;
     grid-template-columns: 10fr;
-
+}
+.card-img, .mountains {
+    width: 100%;
+}
+.rivers-card {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.camping-card {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.rapids-card {
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+.mountains {
+    grid-column: 2/7;
+    grid-row: 5/8;
 }
