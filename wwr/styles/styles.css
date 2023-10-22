@@ -183,9 +183,7 @@ nav {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
-#hero-msg h1 {
-    color: white;
-}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
