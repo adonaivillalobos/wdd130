@@ -36,6 +36,7 @@ h2 {
     margin: 0;
 }
 header {
+    display: grid;
     background-color: seagreen;
     font-family: "Exo 2";
     display: grid;
