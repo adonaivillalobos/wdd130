@@ -86,39 +86,3 @@ p {
     font-family: "Mooli";
     font-size: 1.4em;
 }
-.msg {
-    background-color: green;
-    line-height: 1.5em;
-    padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-.msg h2 {
-    color: white;
-    font-family: "Exo 2", Arial, Helvetica;
-}
-.msg p {
-    color: white;
-    font-size: .8em;
-    padding-bottom: 15px;
-}
-.join {
-    background-color: lightgray;
-    color: black;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
-}
-#background {
-    height: 725px;
-    background-color: lightblue;
-    grid-column: 1/11;
-    grid-row: 4/9;
-}
-.join:hover {
-    background-color: lightsteelblue;
-    color: black;
-} 
