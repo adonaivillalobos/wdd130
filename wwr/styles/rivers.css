@@ -94,3 +94,12 @@ p {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
+.msg h2 {
+    color: white;
+    font-family: "Exo 2", Arial, Helvetica;
+}
+.msg p {
+    color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
