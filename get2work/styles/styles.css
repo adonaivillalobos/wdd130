@@ -19,7 +19,7 @@ nav {
 }
 header {
     display: grid;
-    background-color: seagreen;
+    background-color: #4b73df;
     font-family: "Exo 2";
     grid-template-columns: 150px auto;
     justify-self: center;
