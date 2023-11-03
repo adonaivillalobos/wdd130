@@ -62,3 +62,13 @@ body {
     margin: 0;
     padding: 0;
 }
+#salmon-river {
+    text-align: left;
+}
+#salmon-river-img  img{
+    width: 100%;
+    align-self: right;
+}
+h1, h2 {
+    
+}
