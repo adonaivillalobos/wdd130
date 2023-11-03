@@ -11,7 +11,7 @@ nav a {
 }
 nav a:hover {
     background-color: white;
-    color: green;
+    color: #4b73df;
 }
 nav {
     display: flex;
