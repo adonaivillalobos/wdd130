@@ -77,4 +77,18 @@ p {
     text-align: left;
     margin-top: auto;
     font-family: "Mooli";
+    font-size: medium;
+}
+.container-desolation { 
+    text-align: center;
+}
+img {
+    vertical-align: middle;
+    margin: 25px;
+}
+p {
+    text-align: left;
+    margin-top: auto;
+    font-family: "Mooli";
+    font-size: medium;
 }
