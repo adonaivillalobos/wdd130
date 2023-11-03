@@ -72,8 +72,7 @@ h1, h2 {
 img {
     vertical-align: middle;
     margin-bottom: 25px;
-    opacity: .6;
-    transform: scale(1.1);
+    border: 10px solid black;
 }
 .container-desolation { 
     text-align: center;
