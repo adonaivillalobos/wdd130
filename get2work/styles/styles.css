@@ -17,3 +17,11 @@ nav {
     display: flex;
     justify-content: space-around;
 }
+header {
+    display: grid;
+    background-color: seagreen;
+    font-family: "Exo 2";
+    grid-template-columns: 150px auto;
+    justify-self: center;
+    align-self: center;
+}
