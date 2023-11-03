@@ -112,3 +112,13 @@ p {
     margin-top: 50px;
     border-radius: 5px;
 }
+#background {
+    height: 725px;
+    background-color: lightblue;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+.join:hover {
+    background-color: lightsteelblue;
+    color: black;
+} 
