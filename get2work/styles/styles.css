@@ -2,5 +2,14 @@
     padding-top: auto;
     justify-self: center;
     align-self: center;
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
+.container {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    height: 100vh;
+    background-color: white;
+}
+
