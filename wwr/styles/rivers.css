@@ -65,7 +65,7 @@ body {
 h1, h2 {
     text-align: center;
     font-family: "Exo 2";
-    padding: auto;
+    padding-top: 15px;
 }
 .container-salmon {
     text-align: center;
