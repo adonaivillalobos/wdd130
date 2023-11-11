@@ -81,7 +81,8 @@ img {
     margin: 25px;
 }
 p {
-    text-align: left;
+    text-align: center;
+    text-align: justify;
     margin-top: auto;
     font-family: "Mooli";
     font-size: 1.4em;
