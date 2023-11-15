@@ -33,3 +33,28 @@ body, h1, h2, h3, ul, li {
     color: #333; /* Adjust the link color */
     /* Additional styles like hover effects can be added here */
   }
+  .spacer {
+    height: 50px; /* Adjust the height of the white space as needed */
+  }
+  
+  /* Styling the audience section */
+  .audience-section {
+    text-align: center; /* Center align the content in the section */
+    padding: 40px 0; /* Adjust top and bottom padding as needed */
+    background-color: #ffffff; /* Background color for the section */
+  }
+  
+  .audience-content {
+    max-width: 800px; /* Adjust the maximum width of the content */
+    margin: 0 auto; /* Center the content horizontally */
+  }
+  
+  .audience-content img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain image aspect ratio */
+  }
+  
+  .audience-content p {
+    margin-top: 20px; /* Adjust space between image and text */
+    /* Add any additional styling for the text */
+  }
