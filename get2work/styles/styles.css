@@ -1,28 +1,35 @@
-#logo_link {
-    padding-top: auto;
-    justify-self: center;
-    align-self: center;
-    max-width: 100%;
-    max-height: 100%;
-}
-.container {
-    display: flex;
-    align-items: center;
-    justify-self: center;
-    height: 100vh;
-    background-color: white;
-}
-header {
-    display: grid;
-    background-color: seagreen;
-    font-family: "Exo 2";
-    grid-template-columns: 150px auto;
-    justify-self: center;
-    align-self: center;
-}
-nav a {
-    text-align: center;
-    color: black;
+/* Resetting default margin and padding */
+body, h1, h2, h3, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Ensuring the header takes full width */
+  header {
+    width: 100%;
+    background-color: #f8f8f8; /* Adjust background color as needed */
+    text-align: center; /* Center align the content inside the header */
+    padding: 20px 0; /* Adjust top and bottom padding as needed */
+  }
+  
+  /* Styling the logo */
+  .logo img {
+    max-width: 100%; /* Ensure the logo doesn't exceed the container's width */
+  }
+  
+  /* Styling the navigation */
+  nav ul {
+    list-style: none;
+    margin-top: 10px; /* Adjust the space between logo and navigation */
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px; /* Adjust the space between navigation items */
+  }
+  
+  nav ul li a {
     text-decoration: none;
-    padding: 35px;
-}
+    color: #333; /* Adjust the link color */
+    /* Additional styles like hover effects can be added here */
+  }
