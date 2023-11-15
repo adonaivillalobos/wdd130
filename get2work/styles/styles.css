@@ -58,3 +58,11 @@ body, h1, h2, h3, ul, li {
     margin-top: 20px; /* Adjust space between image and text */
     /* Add any additional styling for the text */
   }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 15px; /* Adjust the space between list items */
+  }
