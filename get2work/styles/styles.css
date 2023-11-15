@@ -39,7 +39,7 @@ body, h1, h2, h3, ul, li {
   
   /* Styling the audience section */
   .audience-section {
-    text-align: center; /* Center align the content in the section */
+    text-align: left; /* Center align the content in the section */
     padding: 40px 0; /* Adjust top and bottom padding as needed */
     background-color: #ffffff; /* Background color for the section */
   }
