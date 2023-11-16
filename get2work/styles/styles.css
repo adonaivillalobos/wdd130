@@ -79,26 +79,28 @@ body, h1, h2, h3, ul, li {
   max-width: 800px;
   margin: 0 auto;
   overflow: hidden;
-  margin-top: 20px; /* Add margin on top to separate from the previous section */
 }
+
 .vision-content {
   display: flex;
-  align-items: row; /* Align items vertically */
+  flex-direction: row;
 }
+
 .vision-image {
-  flex: 40%; /* Set the width of the image */
-  text-align: left;
-  padding-right: 30px;
+  flex-basis: 40%; /* Adjust image width */
+  text-align: left; /* Align image to the left */
+  padding-right: 30px; /* Add space between image and text */
   box-sizing: border-box;
 }
+
 .vision-image img {
-  width: 100%; /* Set the width to 100% of its container */
-  height: auto; /* Maintain the aspect ratio */
-  display: block;
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain image aspect ratio */
+  display: block; /* Remove extra space under the image */
 }
+
 .vision-text {
   flex-basis: 60%; /* Adjust text width */
   text-align: justify; /* Justify text */
   box-sizing: border-box;
 }
-
