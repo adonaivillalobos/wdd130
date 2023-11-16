@@ -56,9 +56,9 @@ body, h1, h2, h3, ul, li {
     flex-basis: 45%;
   }
   
-  .audience-image {
-    order: 1; /* Change the order to display on the right */
-    text-align: right; /* Align the image to the right within its container */
+  .audience-text {
+    order: 1; /* Change the order to display on the left */
+    text-align: left; /* Align text to the left within its container */
   }
   
   .audience-image img {
