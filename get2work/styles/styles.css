@@ -83,14 +83,13 @@ body, h1, h2, h3, ul, li {
 
 .vision-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column; /* Change to column layout for text under the image */
+  align-items: flex-start; /* Align items to the start (left) */
 }
 
 .vision-image {
-  flex-basis: 40%; /* Adjust image width */
-  text-align: left; /* Align image to the left */
-  padding-right: 30px; /* Add space between image and text */
-  box-sizing: border-box;
+  max-width: 100%; /* Ensure the image does not overflow the container */
+  margin-bottom: 20px; /* Add space between image and text */
 }
 
 .vision-image img {
@@ -100,7 +99,5 @@ body, h1, h2, h3, ul, li {
 }
 
 .vision-text {
-  flex-basis: 60%; /* Adjust text width */
   text-align: justify; /* Justify text */
-  box-sizing: border-box;
 }
