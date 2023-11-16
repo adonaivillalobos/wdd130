@@ -39,24 +39,26 @@ body, h1, h2, h3, ul, li {
   
   /* Styling the audience section */
   .audience-section {
-    text-align: left; /* Center align the content in the section */
-    padding: 40px 0; /* Adjust top and bottom padding as needed */
-    background-color: #ffffff; /* Background color for the section */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly along the main axis */
+    align-items: center; /* Align items vertically */
+    /* Additional styling as needed */
   }
   
   .audience-content {
     max-width: 800px; /* Adjust the maximum width of the content */
     margin: 0 auto; /* Center the content horizontally */
+    /* Additional styling as needed */
   }
   
-  .audience-content img {
+  .audience-text,
+  .audience-image {
+    flex-basis: 45%; /* Set width for each column */
+  }
+  
+  .audience-image img {
     max-width: 100%; /* Ensure the image doesn't exceed its container */
     height: auto; /* Maintain image aspect ratio */
-  }
-  
-  .audience-content p {
-    margin-top: 20px; /* Adjust space between image and text */
-    /* Add any additional styling for the text */
   }
   ul {
     list-style: none;
