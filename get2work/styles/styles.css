@@ -35,7 +35,7 @@ h1, h2, h3, ul, li {
     /* Additional styles like hover effects can be added here */
   }
   .spacer {
-    height: 50px; /* Adjust the height of the white space as needed */
+    height: 50px;
   }
   
   /* Styling the audience section */
@@ -77,7 +77,7 @@ h1, h2, h3, ul, li {
   }
 /* Creating space after the audience section */
 .spacer {
-  height: 50px; /* Adjust the height of the white space as needed */
+  height: 50px;
 }
 .vision-section {
   max-width: 800px;
@@ -111,6 +111,9 @@ p {
 }
 .audience-text,
 .vision-text {
-    font-size: 18px; /* Increase text size to 18px (adjust as needed) */
-    line-height: 1.5; /* Add space between lines (adjust as needed) */
+    font-size: 18px; 
+    line-height: 1.5;
+}
+.spacer {
+  height: 50px;
 }
