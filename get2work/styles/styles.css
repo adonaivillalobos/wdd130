@@ -119,14 +119,19 @@ p {
 }
 .courses-section {
   text-align: center; /* Center align the content */
-  margin: 50px auto; /* Add space around the section */
+  margin: 20px auto 50px; /* Adjust top and bottom margin */
+}
+
+.courses-section h2 {
+  margin-top: 0; /* Remove top margin of the h2 */
 }
 
 .courses-images {
-  display: flex;
-  justify-content: center; /* Center images horizontally */
-  align-items: center; /* Center images vertically */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Use CSS grid for images */
   gap: 20px; /* Add space between images */
+  justify-items: center; /* Center images horizontally */
+  align-items: center; /* Center images vertically */
   margin-top: 20px; /* Add space between heading and images */
 }
 
@@ -135,6 +140,7 @@ p {
 }
 
 .course-image img {
-  max-width: 200px; /* Set maximum width for the images */
+  width: 100%; /* Make the images fill their containers */
   height: auto;
+  max-width: 100%; /* Ensure images don't exceed their containers */
 }
