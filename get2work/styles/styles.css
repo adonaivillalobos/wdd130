@@ -84,14 +84,11 @@ body, h1, h2, h3, ul, li {
   max-width: 800px;
   margin: 0 auto;
   overflow: hidden;
-  /* Additional styling as needed */
+  margin-top: 20px; /* Add margin on top to separate from the previous section */
 }
 
 .vision-content {
   display: flex;
-  flex-wrap: wrap; /* Allow content to wrap */
-  align-items: center; /* Align items vertically */
-  margin-top: 20px; /* Add margin on top to separate from the previous section */
 }
 
 .vision-image {
@@ -108,7 +105,7 @@ body, h1, h2, h3, ul, li {
 }
 
 .vision-text {
-  flex-basis: 60%; /* Adjust text width */
-  text-align: justify; /* Justify text */
+  flex: 1; /* Allow the text to take remaining space */
+  text-align: justify;
   box-sizing: border-box;
 }
