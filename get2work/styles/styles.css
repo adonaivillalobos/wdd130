@@ -142,7 +142,7 @@ p {
 .course-image img {
   width: 100%; /* Make the images fill their containers */
   height: auto;
-  max-width: 200px; /* Set a maximum width for the images (adjust as needed) */
+  max-width: 150px; /* Set a maximum width for the images (adjust as needed) */
 }
 
 .course-image p {
