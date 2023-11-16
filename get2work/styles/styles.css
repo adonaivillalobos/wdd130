@@ -80,25 +80,23 @@ body, h1, h2, h3, ul, li {
   margin: 0 auto;
   overflow: hidden;
 }
-
 .vision-content {
   display: flex;
-  flex-direction: column; /* Change to column layout for text under the image */
-  align-items: flex-start; /* Align items to the start (left) */
+  flex-direction: row;
 }
-
 .vision-image {
-  width: 100%; /* Ensure the image fits within the container */
-  max-width: 100%; /* Make sure the image doesn't exceed its container */
-  margin-bottom: 20px; /* Add space between image and text */
+  flex-basis: 40%;
+  text-align: right;
+  padding-right: 30px;
+  box-sizing: border-box;
 }
-
 .vision-image img {
-  width: 100%; /* Make the image fill the container */
-  height: auto; /* Maintain image aspect ratio */
-  display: block; /* Remove extra space under the image */
+  width: 100%;
+  height: auto;
+  display: block;
 }
-
 .vision-text {
-  text-align: justify; /* Justify text */
+  flex-basis: 60%;
+  text-align: justify;
+  box-sizing: border-box;
 }
