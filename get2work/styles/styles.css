@@ -89,6 +89,7 @@ body, h1, h2, h3, ul, li {
 
 .vision-content {
   display: flex;
+  flex-wrap: wrap; /* Allow content to wrap */
   align-items: center; /* Align items vertically */
   margin-top: 20px; /* Add margin on top to separate from the previous section */
 }
@@ -107,7 +108,8 @@ body, h1, h2, h3, ul, li {
 }
 
 .vision-text {
-  flex: 1; /* Allow the text to take remaining space */
+  flex: 0 0 calc(60% - 30px); /* Set the width of the text (accounting for padding) */
   text-align: justify;
   box-sizing: border-box;
+  padding-left: 30px; /* Add padding to separate the text from the image */
 }
