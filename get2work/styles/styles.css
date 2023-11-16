@@ -54,6 +54,8 @@ body, h1, h2, h3, ul, li {
   .audience-image {
     flex-basis: 50%; /* Set image to take 50% of the width */
     text-align: center; /* Center image horizontally */
+    padding-right: 20px; /* Add some space between image and text */
+    box-sizing: border-box; /* Include padding in width calculation */
   }
   
   .audience-image img {
@@ -63,7 +65,8 @@ body, h1, h2, h3, ul, li {
   
   .audience-text {
     flex-basis: 50%; /* Set text to take 50% of the width */
-    padding: 20px; /* Adjust padding as needed */
+    padding-left: 20px; /* Add some space between image and text */
+    box-sizing: border-box; /* Include padding in width calculation */
   }
   ul {
     list-style: none;
