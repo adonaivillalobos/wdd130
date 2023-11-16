@@ -86,7 +86,7 @@ body, h1, h2, h3, ul, li {
   align-items: row; /* Align items vertically */
 }
 .vision-image {
-  flex: 0 0 40%; /* Set the width of the image */
+  flex: 40%; /* Set the width of the image */
   text-align: left;
   padding-right: 30px;
   box-sizing: border-box;
@@ -95,14 +95,10 @@ body, h1, h2, h3, ul, li {
   width: 100%; /* Set the width to 100% of its container */
   height: auto; /* Maintain the aspect ratio */
   display: block;
-  max-width: 400px; /* Set a maximum width for the image */
-  margin-right: 30px; /* Add margin to separate the image from text */
 }
 .vision-text {
-  flex: 1;
-  text-align: justify;
+  flex-basis: 60%; /* Adjust text width */
+  text-align: justify; /* Justify text */
   box-sizing: border-box;
-  padding-left: 50px; /* Increase padding to move the text more to the right */
-  max-width: 60%;
 }
 
