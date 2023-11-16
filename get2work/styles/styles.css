@@ -77,6 +77,8 @@ body, h1, h2, h3, ul, li {
   }
 /* ... (previous CSS remains unchanged) ... */
 
+/* ... (previous CSS remains unchanged) ... */
+
 /* Creating space after the audience section */
 .spacer {
   height: 50px; /* Adjust the height of the white space as needed */
@@ -97,7 +99,7 @@ body, h1, h2, h3, ul, li {
 }
 
 .vision-image {
-  flex-basis: 40%;
+  flex: 1; /* Let the image take the available space */
   text-align: left;
   padding-right: 30px;
   box-sizing: border-box;
@@ -110,7 +112,7 @@ body, h1, h2, h3, ul, li {
 }
 
 .vision-text {
-  flex-basis: 60%;
+  flex: 1; /* Let the text take the available space */
   text-align: justify;
   box-sizing: border-box;
 }
