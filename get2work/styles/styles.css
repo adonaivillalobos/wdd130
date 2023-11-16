@@ -163,3 +163,12 @@ footer p a:hover {
 footer .social img {
   padding-top: 15px;
 }
+footer {
+  background-color: skyblue;
+  color: white;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
