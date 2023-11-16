@@ -127,15 +127,15 @@ p {
 }
 
 .courses-images {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Use CSS grid for images */
-  gap: 20px; /* Add space between images */
-  justify-items: center; /* Center images horizontally */
+  display: flex;
+  justify-content: center; /* Center images horizontally */
   align-items: center; /* Center images vertically */
+  gap: 20px; /* Add space between images */
   margin-top: 20px; /* Add space between heading and images */
 }
 
 .course-image {
+  flex-basis: 40%; /* Adjust image width */
   text-align: center; /* Center align individual images */
 }
 
