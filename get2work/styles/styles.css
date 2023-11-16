@@ -108,8 +108,7 @@ body, h1, h2, h3, ul, li {
 }
 
 .vision-text {
-  flex: 0 0 calc(60% - 30px); /* Set the width of the text (accounting for padding) */
-  text-align: justify;
+  flex-basis: 60%; /* Adjust text width */
+  text-align: justify; /* Justify text */
   box-sizing: border-box;
-  padding-left: 30px; /* Add padding to separate the text from the image */
 }
