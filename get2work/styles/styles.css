@@ -112,8 +112,8 @@ body, h1, h2, h3, ul, li {
 }
 .audience-section,
 .vision-section {
-  max-width: 900px; /* Increase the maximum width */
-  margin: 0 auto;
-  overflow: hidden;
-  margin-top: 20px; /* Add margin on top to separate sections */
+  width: 90%; /* Adjust the width of the sections */
+  margin: 20px auto; /* Add margin and center the sections */
+  padding: 20px; /* Add padding for spacing inside the sections */
+  box-sizing: border-box;
 }
