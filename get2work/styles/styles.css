@@ -43,25 +43,21 @@ body, h1, h2, h3, ul, li {
     margin: 0 auto;
     overflow: hidden;
   }
-  
   .audience-content {
     display: flex;
     flex-direction: row;
   }
-  
   .audience-image {
     flex-basis: 40%; /* Adjust image width */
     text-align: left; /* Align image to the left */
     padding-right: 30px; /* Add space between image and text */
     box-sizing: border-box;
   }
-  
   .audience-image img {
     width: 100%; /* Make the image fill the container */
     height: auto; /* Maintain image aspect ratio */
     display: block; /* Remove extra space under the image */
   }
-  
   .audience-text {
     flex-basis: 60%; /* Adjust text width */
     text-align: justify; /* Justify text */
@@ -79,26 +75,22 @@ body, h1, h2, h3, ul, li {
 .spacer {
   height: 50px; /* Adjust the height of the white space as needed */
 }
-
 .vision-section {
   max-width: 800px;
   margin: 0 auto;
   overflow: hidden;
   margin-top: 20px; /* Add margin on top to separate from the previous section */
 }
-
 .vision-content {
   display: flex;
   align-items: row; /* Align items vertically */
 }
-
 .vision-image {
   flex: 0 0 40%; /* Set the width of the image */
   text-align: left;
   padding-right: 30px;
   box-sizing: border-box;
 }
-
 .vision-image img {
   width: 100%; /* Set the width to 100% of its container */
   height: auto; /* Maintain the aspect ratio */
@@ -106,7 +98,6 @@ body, h1, h2, h3, ul, li {
   max-width: 400px; /* Set a maximum width for the image */
   margin-right: 30px; /* Add margin to separate the image from text */
 }
-
 .vision-text {
   flex: 1;
   text-align: justify;
