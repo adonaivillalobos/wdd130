@@ -141,5 +141,9 @@ p {
   max-width: 150px; /* Set a maximum width for the images (adjust as needed) */
 }
 .course-image p {
-  font-family: Noto Sans; /* Set font family to Noto Sans */
+  margin-top: 20px; /* Add space between image and text */
+  text-align: justify; /* Align text */
+  width: 100%; /* Set the width to occupy the entire space */
+  line-height: 1.6; /* Increase line height for space between lines */
+  font-family: 'Noto Sans', sans-serif; /* Set font family to Noto Sans */
 }
