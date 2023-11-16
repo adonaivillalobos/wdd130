@@ -100,7 +100,7 @@ body, h1, h2, h3, ul, li {
 }
 
 .vision-image img {
-  width: 200%; /* Increase the width of the image */
+  width: 200px; /* Increase the width of the image */
   height: auto;
   display: block;
 }
