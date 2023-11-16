@@ -56,10 +56,6 @@ body, h1, h2, h3, ul, li {
     flex-basis: 45%; /* Set width for each column */
   }
   
-  .audience-image {
-    order: 1; /* Change the order to display on the right */
-  }
-  
   .audience-image img {
     max-width: 100%; /* Ensure the image doesn't exceed its container */
     height: auto; /* Maintain image aspect ratio */
