@@ -118,7 +118,7 @@ p {
   height: 50px;
 }
 .courses-section {
-  text-align: center; /* Center align the content */
+  text-align: center justify; /* Center align the content */
   margin: 20px auto 50px; /* Adjust top and bottom margin */
   font-family: Noto Sans;
 }
