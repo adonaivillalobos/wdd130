@@ -39,31 +39,31 @@ body, h1, h2, h3, ul, li {
   
   /* Styling the audience section */
   .audience-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden; /* Clear floats */
     /* Additional styling as needed */
   }
   
   .audience-content {
-    max-width: 800px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: row; /* Set items in a row */
     /* Additional styling as needed */
   }
   
-  .audience-text,
   .audience-image {
-    flex-basis: 45%;
-  }
-  
-  .audience-text {
-    order: 1; /* Change the order to display on the left */
-    text-align: left; /* Align text to the left within its container */
+    flex-basis: 50%; /* Set image to take 50% of the width */
+    text-align: center; /* Center image horizontally */
   }
   
   .audience-image img {
     max-width: 100%;
     height: auto;
+  }
+  
+  .audience-text {
+    flex-basis: 50%; /* Set text to take 50% of the width */
+    padding: 20px; /* Adjust padding as needed */
   }
   ul {
     list-style: none;
