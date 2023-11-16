@@ -75,10 +75,6 @@ body, h1, h2, h3, ul, li {
   ul li {
     margin-bottom: 15px; /* Adjust the space between list items */
   }
-/* ... (previous CSS remains unchanged) ... */
-
-/* ... (previous CSS remains unchanged) ... */
-
 /* Creating space after the audience section */
 .spacer {
   height: 50px; /* Adjust the height of the white space as needed */
@@ -92,17 +88,11 @@ body, h1, h2, h3, ul, li {
 }
 
 .vision-content {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Split the section into two columns */
   align-items: center; /* Align items vertically */
+  gap: 20px; /* Add some gap between image and text */
   margin-top: 20px; /* Add margin on top to separate from the previous section */
-}
-
-.vision-image {
-  flex: 1; /* Let the image take the available space */
-  text-align: left;
-  padding-right: 30px;
-  box-sizing: border-box;
 }
 
 .vision-image img {
@@ -112,7 +102,5 @@ body, h1, h2, h3, ul, li {
 }
 
 .vision-text {
-  flex: 1; /* Let the text take the available space */
   text-align: justify;
-  box-sizing: border-box;
 }
