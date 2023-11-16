@@ -72,6 +72,7 @@ h1, h2, h3, ul, li {
   
   ul li {
     margin-bottom: 15px; /* Adjust the space between list items */
+    font-family: Noto Sans;
   }
 /* Creating space after the audience section */
 .spacer {
