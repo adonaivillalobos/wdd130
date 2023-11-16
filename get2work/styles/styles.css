@@ -172,3 +172,6 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
+body {
+  background-color:  #9f9f9f; /* Set the desired background color */
+}
