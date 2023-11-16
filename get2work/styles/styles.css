@@ -90,6 +90,7 @@ body, h1, h2, h3, ul, li {
 .vision-content {
   display: flex;
   flex-direction: row;
+  margin-top: 20px; /* Add margin on top to separate from the previous section */
 }
 
 .vision-image {
