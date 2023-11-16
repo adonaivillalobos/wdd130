@@ -89,27 +89,25 @@ body, h1, h2, h3, ul, li {
 
 .vision-content {
   display: flex;
-  flex-wrap: wrap; /* Allow content to wrap */
   align-items: center; /* Align items vertically */
   margin-top: 20px; /* Add margin on top to separate from the previous section */
 }
 
 .vision-image {
-  flex: 1 1 50%; /* Let the image take half the width */
+  flex: 0 0 40%; /* Set the width of the image */
   text-align: left;
   padding-right: 30px;
   box-sizing: border-box;
 }
 
 .vision-image img {
-  width: 100%; /* Make the image fill its container */
+  width: 100%;
   height: auto;
   display: block;
 }
 
 .vision-text {
-  flex: 1 1 50%; /* Let the text take half the width */
+  flex: 1; /* Allow the text to take remaining space */
   text-align: justify;
-  padding-left: 30px; /* Add padding to the text for separation */
   box-sizing: border-box;
 }
