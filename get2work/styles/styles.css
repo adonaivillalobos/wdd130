@@ -134,8 +134,18 @@ p {
   margin-top: 20px; /* Add space between heading and images */
 }
 
+.course-image {
+  flex-basis: 40%; /* Adjust image width */
+  text-align: center; /* Center align individual images */
+}
+
 .course-image img {
   width: 100%; /* Make the images fill their containers */
   height: auto;
   max-width: 150px; /* Set a maximum width for the images (adjust as needed) */
+}
+
+.course-image p {
+  margin-top: 0; /* Remove top margin of the text */
+  text-align: justify; /* Align text */
 }
