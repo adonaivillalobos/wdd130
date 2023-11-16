@@ -109,3 +109,8 @@ h1, h2, h3, ul, li {
 p {
   font-family: Noto Sans;
 }
+.audience-text,
+.vision-text {
+    font-size: 18px; /* Increase text size to 18px (adjust as needed) */
+    line-height: 1.5; /* Add space between lines (adjust as needed) */
+}
