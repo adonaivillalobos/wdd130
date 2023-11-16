@@ -127,25 +127,26 @@ p {
 }
 
 .courses-images {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Grid layout */
-  gap: 20px; /* Add space between images */
-  justify-content: center; /* Center images horizontally */
-  margin-top: 20px; /* Add space between heading and images */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  gap: 20px; /* Add space between images and text */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
 }
 
 .course-image {
-  flex-basis: 40%; /* Adjust image width */
-  text-align: center; /* Center align individual images */
+  width: 200px; /* Set a fixed width for each course block */
+  text-align: center; /* Center align individual course blocks */
+  margin-bottom: 20px; /* Add space between course blocks */
 }
 
 .course-image img {
   width: 100%; /* Make the images fill their containers */
   height: auto;
-  max-width: 150px; /* Set a maximum width for the images (adjust as needed) */
+  max-width: 100%; /* Ensure images don't exceed their containers */
 }
 
 .course-image p {
   margin-top: 10px; /* Add space between image and text (adjust as needed) */
   text-align: justify; /* Align text */
+  width: 100%; /* Set the width to occupy the entire space */
 }
