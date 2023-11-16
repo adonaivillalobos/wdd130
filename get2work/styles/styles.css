@@ -117,3 +117,24 @@ p {
 .spacer {
   height: 50px;
 }
+.courses-section {
+  text-align: center; /* Center align the content */
+  margin: 50px auto; /* Add space around the section */
+}
+
+.courses-images {
+  display: flex;
+  justify-content: center; /* Center images horizontally */
+  align-items: center; /* Center images vertically */
+  gap: 20px; /* Add space between images */
+  margin-top: 20px; /* Add space between heading and images */
+}
+
+.course-image {
+  text-align: center; /* Center align individual images */
+}
+
+.course-image img {
+  max-width: 200px; /* Set maximum width for the images */
+  height: auto;
+}
