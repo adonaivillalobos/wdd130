@@ -146,7 +146,8 @@ p {
 }
 
 .course-image p {
-  margin-top: 30px; /* Add more space between image and text */
+  margin-top: 10px; /* Add space between image and text */
   text-align: justify; /* Align text */
   width: 100%; /* Set the width to occupy the entire space */
+  line-height: 1.5; /* Adjust line height for better spacing */
 }
