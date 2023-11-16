@@ -120,6 +120,7 @@ p {
 .courses-section {
   text-align: center; /* Center align the content */
   margin: 20px auto 50px; /* Adjust top and bottom margin */
+  font-family: Noto Sans;
 }
 
 .courses-section h2 {
