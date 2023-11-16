@@ -41,32 +41,29 @@ body, h1, h2, h3, ul, li {
   .audience-section {
     max-width: 800px;
     margin: 0 auto;
-    overflow: hidden; /* Clear floats */
-    /* Additional styling as needed */
+    overflow: hidden;
   }
   
   .audience-content {
     display: flex;
-    flex-direction: row; /* Set items in a row */
-    /* Additional styling as needed */
+    flex-direction: row;
   }
   
   .audience-image {
-    flex-basis: 50%; /* Set image to take 50% of the width */
-    text-align: center; /* Center image horizontally */
-    padding-right: 20px; /* Add some space between image and text */
-    box-sizing: border-box; /* Include padding in width calculation */
+    flex-basis: 40%; /* Adjust image width */
+    text-align: left; /* Align image to the left */
+    padding-right: 30px; /* Add space between image and text */
+    box-sizing: border-box;
   }
   
   .audience-image img {
-    max-width: 100%;
-    height: auto;
+    width: 100%; /* Make the image fill the container */
   }
   
   .audience-text {
-    flex-basis: 50%; /* Set text to take 50% of the width */
-    padding-left: 20px; /* Add some space between image and text */
-    box-sizing: border-box; /* Include padding in width calculation */
+    flex-basis: 60%; /* Adjust text width */
+    text-align: justify; /* Justify text */
+    box-sizing: border-box;
   }
   ul {
     list-style: none;
