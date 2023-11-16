@@ -110,3 +110,10 @@ body, h1, h2, h3, ul, li {
   text-align: justify;
   box-sizing: border-box;
 }
+.audience-section,
+.vision-section {
+  max-width: 900px; /* Increase the maximum width */
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 20px; /* Add margin on top to separate sections */
+}
