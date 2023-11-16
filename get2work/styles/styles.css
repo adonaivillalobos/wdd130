@@ -141,5 +141,5 @@ p {
   max-width: 150px; /* Set a maximum width for the images (adjust as needed) */
 }
 .course-image p {
-  font-family: 'Noto Sans', sans-serif; /* Set font family to Noto Sans */
+  font-family: Noto Sans; /* Set font family to Noto Sans */
 }
