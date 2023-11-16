@@ -64,6 +64,7 @@ h1, h2, h3, ul, li {
     text-align: justify; /* Justify text */
     box-sizing: border-box;
     font-family: Noto Sans;
+    font-size: medium;
   }
   ul {
     list-style: none;
@@ -103,6 +104,7 @@ h1, h2, h3, ul, li {
   text-align: justify;
   box-sizing: border-box;
   font-family: Noto Sans;
+  font-size: medium;
 }
 p {
   font-family: Noto Sans;
