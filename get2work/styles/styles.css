@@ -118,7 +118,7 @@ p {
   height: 50px;
 }
 .courses-section {
-  text-align: center justify; /* Center align the content */
+  text-align: center; /* Center align the content */
   margin: 20px auto 50px; /* Adjust top and bottom margin */
   font-family: Noto Sans;
 }
@@ -139,4 +139,7 @@ p {
   width: 100%; /* Make the images fill their containers */
   height: auto;
   max-width: 150px; /* Set a maximum width for the images (adjust as needed) */
+}
+.course-image p {
+  font-family: 'Noto Sans', sans-serif; /* Set font family to Noto Sans */
 }
