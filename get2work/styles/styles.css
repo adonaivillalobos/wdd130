@@ -8,9 +8,9 @@ h1, h2, h3, ul, li {
   /* Ensuring the header takes full width */
   header {
     width: 100%;
-    background-color: #f8f8f8; /* Adjust background color as needed */
+    background-color: #4b73df; 
     text-align: center; /* Center align the content inside the header */
-    padding: 20px 0; /* Adjust top and bottom padding as needed */
+    padding: 20px 0; 
   }
   
   /* Styling the logo */
@@ -32,7 +32,6 @@ h1, h2, h3, ul, li {
   nav ul li a {
     text-decoration: none;
     color: #333; /* Adjust the link color */
-    /* Additional styles like hover effects can be added here */
   }
   .spacer {
     height: 50px;
@@ -138,7 +137,7 @@ p {
 .course-image img {
   width: 100%; /* Make the images fill their containers */
   height: auto;
-  max-width: 150px; /* Set a maximum width for the images (adjust as needed) */
+  max-width: 150px;
 }
 .course-image p {
   margin-top: 20px; /* Add space between image and text */
@@ -171,7 +170,4 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-body {
-  background-color: black !important; /* Set the desired background color */
 }
