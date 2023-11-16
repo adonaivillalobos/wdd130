@@ -109,14 +109,7 @@ body, h1, h2, h3, ul, li {
   flex: 1;
   text-align: justify;
   box-sizing: border-box;
-  padding-left: 20px; /* Adjust padding as needed */
-  max-width: 60%; /* Adjust the maximum width of the text */
+  padding-left: 50px; /* Increase padding to move the text more to the right */
+  max-width: 60%;
 }
-.audience-section,
-.vision-section {
-  width: 100%;
-  margin: 20px auto;
-  padding: 20px;
-  box-sizing: border-box;
-  max-width: 900px; /* Adjust the maximum width of the sections */
-}
+
