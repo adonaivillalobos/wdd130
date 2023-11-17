@@ -224,8 +224,13 @@ footer {
   margin-left: -20px; /* Adjust to account for padding */
 }
 
-.course ul,
 .course p {
+  text-align: left;
+  margin-left: 30px; /* Indent the text for better readability */
+  line-height: 1.5; /* Add space between lines in paragraphs */
+}
+
+.course ul {
   text-align: left;
   margin-left: 30px; /* Indent the text for better readability */
 }
