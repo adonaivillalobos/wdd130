@@ -210,10 +210,13 @@ footer {
 }
 
 .course h3,
+.course ul,
 .course p {
   text-align: center;
 }
 
-.course p {
+.course p,
+.course ul {
   text-align: left;
+  margin-left: 30px; /* Indent the text for better readability */
 }
