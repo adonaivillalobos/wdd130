@@ -171,9 +171,6 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
-.spacer {
-  height: 50px;
-}
 .container {
   display: flex;
   align-items: flex-start;
