@@ -188,7 +188,7 @@ footer {
 }
 
 .about-section {
-  margin-left: auto; /* Moves the Introduction section to the right */
+  margin-right: auto; /* Moves the Introduction section to the left */
 }
 
 .about-section p,
