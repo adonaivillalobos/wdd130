@@ -195,7 +195,3 @@ footer {
 .interests-section ul {
   margin-bottom: 20px; /* Increase space between lines */
 }
-.additional-image {
-  flex: 0 0 15%; /* Adjust the width of each additional image */
-  padding: 20px;
-}
