@@ -209,6 +209,10 @@ footer {
   padding: 20px; /* Adjust padding for content separation */
 }
 
+.course h2 {
+  margin-bottom: 20px; /* Add margin below the h2 element */
+}
+
 .course h3 {
   text-align: center;
   background-color: #f2f2f2; /* Choose your desired background color */
