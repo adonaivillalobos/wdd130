@@ -180,18 +180,11 @@ footer {
 }
 
 .profile-image {
-  flex: 1;
+  flex-basis: 30%; /* Adjust the image width */
   padding: 20px;
-  max-width: 30%; /* Adjust the image width */
-}
-
-.content {
-  flex: 2;
-  padding: 20px;
-  max-width: 70%; /* Adjust the content width */
 }
 
 .about-section {
-  margin-left: 20px; /* Adjust margin as needed */
-  max-width: calc(100% - 30% - 40px); /* Calculation for max-width */
+  flex-basis: 70%; /* Adjust the text width */
+  padding: 20px;
 }
