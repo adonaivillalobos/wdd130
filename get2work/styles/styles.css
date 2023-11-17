@@ -189,16 +189,5 @@ footer {
 
 .about-section p,
 .interests-section ul {
-  margin-bottom: 15px; /* Add space between lines */
-}
-
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .profile-image,
-  .content {
-    max-width: 100%;
-  }
+  margin-bottom: 20px; /* Increase space between lines */
 }
