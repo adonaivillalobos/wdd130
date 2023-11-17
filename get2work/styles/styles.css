@@ -187,12 +187,11 @@ footer {
   max-width: 70%; /* Adjust the content width */
 }
 
+.about-section {
+  margin-left: auto; /* Moves the Introduction section to the right */
+}
+
 .about-section p,
 .interests-section ul {
-  margin-bottom: 35px; /* Increase space between lines */
-}
-.about-section, .interests-section {
-  max-width: 800px;
-  margin: 0 auto;
-  overflow: hidden;
+  margin-bottom: 20px; /* Increase space between lines */
 }
