@@ -187,9 +187,9 @@ footer {
   max-width: 70%; /* Adjust the content width */
 }
 
-.about-section,
-.interests-section {
-  margin-bottom: 20px;
+.about-section p,
+.interests-section ul {
+  margin-bottom: 15px; /* Add space between lines */
 }
 
 @media (max-width: 768px) {
