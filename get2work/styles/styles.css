@@ -211,11 +211,13 @@ footer {
 
 .course h3 {
   text-align: center;
-  background-color: #4b73df; /* Choose your desired background color */
+  background-color: #f2f2f2; /* Choose your desired background color */
   padding: 10px;
   border-radius: 5px; /* Rounded corners for the box */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
   margin-bottom: 20px; /* Spacing between course titles */
+  width: calc(100% - 40px); /* Adjust to account for padding */
+  margin-left: -20px; /* Adjust to account for padding */
 }
 
 .course ul,
