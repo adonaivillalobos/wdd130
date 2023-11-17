@@ -171,27 +171,41 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
-.container {
+.spacer {
+  height: 50px;
+}
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.about-content-section {
   display: flex;
+  flex-direction: row;
 }
-
 .profile-image {
-  flex: 1;
-  padding: 20px;
-  max-width: 30%; /* Adjust the image width */
+  flex-basis: 40%;
+  text-align: right;
+  padding-right: 30px;
+  box-sizing: border-box;
 }
-
-.content {
-  flex: 2;
-  padding: 20px;
-  max-width: 70%; /* Adjust the content width */
+.profile-image img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
-
-.about-section {
-  margin-right: auto; /* Moves the Introduction section to the left */
+.about-text {
+  flex-basis: 60%;
+  text-align: justify;
+  box-sizing: border-box;
+  font-family: Noto Sans;
+  font-size: medium;
 }
-
-.about-section p,
-.interests-section ul {
-  margin-bottom: 20px; /* Increase space between lines */
+p {
+  font-family: Noto Sans;
+}
+/* Applying the font size and line height to specific sections */
+.about-text {
+  font-size: 18px; 
+  line-height: 1.5;
 }
