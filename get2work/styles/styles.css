@@ -192,6 +192,7 @@ footer {
   margin-bottom: 35px; /* Increase space between lines */
 }
 .about-section, .interests-section {
-  grid-template-columns: 1 / 4;
-  grid-template-rows: 1 / 4;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
 }
