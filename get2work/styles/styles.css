@@ -203,16 +203,9 @@ footer {
   font-family: Noto Sans;
 }
 /* course page CSS start now*/
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-}
-
 .course-content {
   text-align: center;
   max-width: 600px; /* Adjust the maximum width as needed */
+  margin: 0 auto;
   padding: 0 20px;
-} 
+}
