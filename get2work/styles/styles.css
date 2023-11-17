@@ -204,8 +204,16 @@ footer {
 }
 /* course page CSS start now*/
 .course-content {
-  text-align: center;
   max-width: 600px; /* Adjust the maximum width as needed */
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.course h3,
+.course p {
+  text-align: center;
+}
+
+.course p {
+  text-align: left;
 }
