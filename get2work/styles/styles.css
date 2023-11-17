@@ -177,15 +177,17 @@ footer {
 .container {
   display: flex;
   align-items: flex-start;
+  flex-wrap: wrap; /* Allow flex items to wrap */
 }
 
 .profile-image {
-  flex-basis: 30%;
+  flex: 0 0 30%; /* Adjust the image width */
   padding: 20px;
 }
 
-.about-section {
-  flex-basis: calc(70% - 40px); /* Adjust the text width */
+.about-section,
+.interests-section {
+  flex: 0 0 35%; /* Adjust the text width */
   padding: 20px;
-  margin-left: auto; /* Move the about-section to the right */
+  margin-right: 20px; /* Adjust margin between sections */
 }
