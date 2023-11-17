@@ -191,9 +191,13 @@ footer {
   text-align: left;
   text-justify: none;
   line-height: 1.8; /* Increase line height for the "Introduction" section */
+  font-size: 1.8em;
+  font-family: Noto Sans;
 }
 
 .interests-section ul {
   text-align: left;
   text-justify: none;
+  font-size: 1.8em;
+  font-family: Noto Sans;
 }
