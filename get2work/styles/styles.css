@@ -178,13 +178,13 @@ footer {
 .profile-image {
   flex: 1;
   padding: 20px;
+  max-width: 30%; /* Adjust the image width */
 }
 
 .content {
   flex: 2;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
+  max-width: 70%; /* Adjust the content width */
 }
 
 .about-section,
@@ -199,7 +199,6 @@ footer {
 
   .profile-image,
   .content {
-    flex: auto;
-    width: 100%;
+    max-width: 100%;
   }
 }
