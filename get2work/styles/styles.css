@@ -195,3 +195,18 @@ footer {
 .interests-section ul {
   margin-bottom: 20px; /* Increase space between lines */
 }
+.container {
+  display: flex;
+  justify-content: space-between; /* Distribute items with space between */
+  padding: 20px; /* Add padding to the container */
+}
+
+.container aside {
+  flex: 0 0 calc(50% - 10px); /* Set width for each image with margin */
+  margin: 0 5px; /* Adjust margin between images */
+}
+
+.container img {
+  width: 100%; /* Ensure images fill their container */
+  height: auto; /* Maintain aspect ratio */
+}
