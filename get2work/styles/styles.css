@@ -206,16 +206,16 @@ footer {
 .course-content {
   max-width: 600px; /* Adjust the maximum width as needed */
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 20px; /* Adjust padding for content separation */
 }
 
 .course h3 {
   text-align: center;
   background-color: #f2f2f2; /* Choose your desired background color */
-  padding: 10px;
+  padding: 15px; /* Increase padding for the colored frame */
   border-radius: 5px; /* Rounded corners for the box */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
-  margin-bottom: 20px; /* Spacing between course titles */
+  margin-bottom: 30px; /* Spacing between course titles */
   width: calc(100% - 40px); /* Adjust to account for padding */
   margin-left: -20px; /* Adjust to account for padding */
 }
