@@ -174,38 +174,24 @@ footer {
 .spacer {
   height: 50px;
 }
-.about-content {
-  max-width: 800px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-.about-content-section {
+.container {
   display: flex;
-  flex-direction: row;
+  align-items: flex-start; /* Align items at the start of the flex container */
 }
+
 .profile-image {
-  flex-basis: 40%;
-  text-align: right;
-  padding-right: 30px;
-  box-sizing: border-box;
+  flex: 1;
+  padding: 20px;
+  max-width: 30%; /* Adjust the image width */
 }
-.profile-image img {
-  width: 100%;
-  height: auto;
-  display: block;
+
+.content {
+  flex: 2;
+  padding: 20px;
+  max-width: 70%; /* Adjust the content width */
 }
-.about-text {
-  flex-basis: 60%;
-  text-align: justify;
-  box-sizing: border-box;
-  font-family: Noto Sans;
-  font-size: medium;
-}
-p {
-  font-family: Noto Sans;
-}
-/* Applying the font size and line height to specific sections */
-.about-text {
-  font-size: 18px; 
-  line-height: 1.5;
+
+.about-section {
+  margin-left: 20px; /* Adjust margin as needed */
+  max-width: calc(100% - 30% - 40px); /* Calculation for max-width */
 }
