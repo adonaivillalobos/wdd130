@@ -171,14 +171,16 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
-.about-content {
-  max-width: 60%; /* Adjust the width as needed */
-  float: right;
-  padding: 20px; /* Add padding for better readability */
+.container {
+  display: flex;
 }
 
 .profile-image {
-  max-width: 35%; /* Adjust the width as needed */
-  float: left;
+  flex: 1; /* Adjust the width of the image section */
+  padding: 20px; /* Add padding for spacing */
+}
+
+.about-content {
+  flex: 2; /* Adjust the width of the content section */
   padding: 20px; /* Add padding for spacing */
 }
