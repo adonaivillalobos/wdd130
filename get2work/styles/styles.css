@@ -191,3 +191,7 @@ footer {
 .interests-section ul {
   margin-bottom: 35px; /* Increase space between lines */
 }
+.about-section, .interests-section {
+  grid-template-columns: 1 / 4;
+  grid-template-rows: 1 / 4;
+}
