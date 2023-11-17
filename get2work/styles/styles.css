@@ -187,8 +187,13 @@ footer {
   height: auto;
 }
 
-.about-section p,
+.about-section p {
+  text-align: left;
+  text-justify: none;
+  line-height: 1.8; /* Increase line height for the "Introduction" section */
+}
+
 .interests-section ul {
-  text-align: left; /* Align text to the left */
-  text-justify: none; /* Prevent text justification */
+  text-align: left;
+  text-justify: none;
 }
