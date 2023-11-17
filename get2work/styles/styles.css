@@ -184,7 +184,8 @@ footer {
   padding: 20px;
 }
 
-.about-section {
-  flex-basis: 70%; /* Adjust the text width */
+.about-section,
+.interests-section {
+  flex-basis: 35%; /* Adjust the text width */
   padding: 20px;
 }
