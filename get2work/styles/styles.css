@@ -171,3 +171,14 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
+.about-content {
+  max-width: 60%; /* Adjust the width as needed */
+  float: right;
+  padding: 20px; /* Add padding for better readability */
+}
+
+.profile-image {
+  max-width: 35%; /* Adjust the width as needed */
+  float: left;
+  padding: 20px; /* Add padding for spacing */
+}
