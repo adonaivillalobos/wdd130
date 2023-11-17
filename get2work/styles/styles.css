@@ -176,18 +176,30 @@ footer {
 }
 
 .profile-image {
-  flex: 1; /* Adjust the width of the image section */
-  padding: 20px; /* Add padding for spacing */
+  flex: 1;
+  padding: 20px;
 }
 
 .content {
-  flex: 2; /* Adjust the width of the content section */
-  padding: 20px; /* Add padding for spacing */
+  flex: 2;
+  padding: 20px;
   display: flex;
   flex-direction: column;
 }
 
 .about-section,
 .interests-section {
-  margin-bottom: 20px; /* Add margin between sections */
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .profile-image,
+  .content {
+    flex: auto;
+    width: 100%;
+  }
 }
