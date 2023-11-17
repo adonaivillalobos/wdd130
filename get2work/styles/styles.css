@@ -228,6 +228,8 @@ footer {
   text-align: left;
   margin-left: 30px; /* Indent the text for better readability */
   line-height: 1.5; /* Add space between lines in paragraphs */
+  font-family: Noto Sans;
+  font-size: medium;
 }
 
 .course ul {
