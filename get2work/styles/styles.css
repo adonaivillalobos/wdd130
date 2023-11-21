@@ -4,7 +4,9 @@ h1, h2, h3, ul, li {
     padding: 0;
     font-family: Merienda, cursive;
   }
-  
+body {
+  background-color: black;
+}
   /* Ensuring the header takes full width */
   header {
     width: 100%;
