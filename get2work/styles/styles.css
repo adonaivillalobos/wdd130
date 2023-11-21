@@ -23,7 +23,7 @@ body {
   /* Styling the navigation */
   nav ul {
     list-style: none;
-    margin-top: 20px; /* Adjust the space between logo and navigation */
+    margin-top: 50px; /* Adjust the space between logo and navigation */
   }
   
   nav ul li {
