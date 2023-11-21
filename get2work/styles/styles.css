@@ -15,7 +15,7 @@ h1, h2, h3, ul, li {
   
   /* Styling the logo */
   .logo img {
-    max-width: 50%; /* Ensure the logo doesn't exceed the container's width */
+    max-width: 95%; /* Ensure the logo doesn't exceed the container's width */
   }
   
   /* Styling the navigation */
