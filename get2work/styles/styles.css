@@ -26,12 +26,12 @@ h1, h2, h3, ul, li {
   
   nav ul li {
     display: inline;
-    margin: 0 10px; /* Adjust the space between navigation items */
+    margin: 0 20px; /* Adjust the space between navigation items */
   }
   
   nav ul li a {
     text-decoration: none;
-    color: #059337 /* Adjust the link color */
+    color: #059337 
   }
   .spacer {
     height: 50px;
