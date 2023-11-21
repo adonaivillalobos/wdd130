@@ -26,7 +26,7 @@ h1, h2, h3, ul, li {
   
   nav ul li {
     display: inline;
-    margin: 0 20px; /* Adjust the space between navigation items */
+    margin: 0 40px; /* Adjust the space between navigation items */
   }
   
   nav ul li a {
