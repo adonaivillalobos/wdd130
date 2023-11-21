@@ -10,7 +10,7 @@ h1, h2, h3, ul, li {
     width: 100%;
     background-color: white; 
     text-align: center; /* Center align the content inside the header */
-    padding: 20px 0; 
+    padding: 0 auto; 
   }
   
   /* Styling the logo */
