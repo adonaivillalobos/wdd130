@@ -31,7 +31,7 @@ h1, h2, h3, ul, li {
   
   nav ul li a {
     text-decoration: none;
-    color: purple /* Adjust the link color */
+    color: #059337 /* Adjust the link color */
   }
   .spacer {
     height: 50px;
