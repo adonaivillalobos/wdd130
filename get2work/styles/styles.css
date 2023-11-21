@@ -17,7 +17,7 @@ body {
   
   /* Styling the logo */
   .logo img {
-    max-width: 95%; /* Ensure the logo doesn't exceed the container's width */
+    max-width: 105%; /* Ensure the logo doesn't exceed the container's width */
   }
   
   /* Styling the navigation */
