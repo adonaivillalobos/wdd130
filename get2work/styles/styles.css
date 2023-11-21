@@ -8,7 +8,7 @@ h1, h2, h3, ul, li {
   /* Ensuring the header takes full width */
   header {
     width: 100%;
-    background-color: #4b73df; 
+    background-color: white; 
     text-align: center; /* Center align the content inside the header */
     padding: 20px 0; 
   }
