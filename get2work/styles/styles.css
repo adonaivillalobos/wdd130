@@ -13,6 +13,7 @@ body {
     background-color: white; 
     text-align: center; /* Center align the content inside the header */
     padding: 0 auto; 
+    background-color: lightblue;
   }
   
   /* Styling the logo */
