@@ -90,9 +90,9 @@ body {
   flex-direction: row;
 }
 .vision-image {
-  flex-basis: 40%;
+  flex-basis: 80%;
   text-align: right;
-  padding-right: 30px;
+  padding-right: 200px;
   box-sizing: border-box;
 }
 .vision-image img {
