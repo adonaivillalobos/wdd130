@@ -52,7 +52,7 @@ body {
   .audience-image {
     flex-basis: 60%; /* Adjust image width */
     text-align: right; /* Align image to the left */
-    padding-right: 30px; /* Add space between image and text */
+    padding-right: 50px; /* Add space between image and text */
     box-sizing: border-box;
   }
   .audience-image img {
