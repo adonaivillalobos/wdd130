@@ -51,7 +51,7 @@ body {
   }
   .audience-image {
     flex-basis: 80%; /* Adjust image width */
-    text-align: center; /* Align image to the left */
+    text-align: right; /* Align image to the left */
     padding-right: 200px; /* Add space between image and text */
     box-sizing: border-box;
   }
