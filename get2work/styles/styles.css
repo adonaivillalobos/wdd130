@@ -57,7 +57,7 @@ nav ul li a {
 }
 
 .audience-image img {
-  max-width: 300px; /* Set maximum width for the image */
+  max-width: 500px; /* Set maximum width for the image */
   height: auto;
   display: block;
 }
