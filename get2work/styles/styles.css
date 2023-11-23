@@ -44,7 +44,6 @@ nav ul li a {
 .audience-content {
   display: flex;
   flex-direction: row;
-  width: 50%; /* Set the audience content to take up half of the page */
   margin: 0 auto; /* Center the content */
 }
 .audience-image {
