@@ -36,41 +36,42 @@ nav ul li a {
   height: 50px;
 }
 /* Styling the audience section */
-  .audience-section {
-    max-width: 800px;
-    margin: 0 auto;
-    overflow: hidden;
-    padding-top: 20px; /* Add space above the audience section */
-    padding-bottom: 20px; /* Add space below the audience section */
-  }
-  
-  .audience-content {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto; /* Center the content */
-  }
-  
-  .audience-image {
-    text-align: left; /* Align image to the left */
-    box-sizing: border-box;
-    padding-right: 80px; /* Add space between image and text */
-  }
-  
-  .audience-image img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  
-  .audience-text {
-    box-sizing: border-box;
-    font-family: Noto Sans;
-    font-size: medium;
-  }
-  
-  .audience-title {
-    text-align: center; /* Center the Audience title */
-  }
+.audience-section {
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 20px; /* Add space above the audience section */
+  padding-bottom: 20px; /* Add space below the audience section */
+}
+
+.audience-content {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto; /* Center the content */
+}
+
+.audience-image {
+  text-align: left; /* Align image to the left */
+  box-sizing: border-box;
+  padding-right: 80px; /* Add space between image and text */
+}
+
+.audience-image img {
+  max-width: 300px; /* Set maximum width for the image */
+  height: auto;
+  display: block;
+}
+
+.audience-text {
+  box-sizing: border-box;
+  font-family: Noto Sans;
+  font-size: medium;
+}
+
+.audience-title {
+  text-align: center; /* Center the Audience title */
+}
+
   
 /* Creating space after the audience section */
 .spacer {
