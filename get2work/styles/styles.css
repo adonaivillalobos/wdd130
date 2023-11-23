@@ -37,29 +37,24 @@ nav ul li a {
 }
 /* Styling the audience section */
 .audience-section {
-  .audience-section {
-    max-width: 800px;
-    margin: 0 auto;
-    overflow: hidden;
-  }
-  
-  .audience-content {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto; /* Center the content */
-  }
-  
-  .audience-image {
-    text-align: left; /* Align image to the left */
-    box-sizing: border-box;
-  }
-  
-  .audience-image img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.audience-content {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto; /* Center the content */
+}
+.audience-image {
+  text-align: left; /* Align image to the left */
+  box-sizing: border-box;
+}
+.audience-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 /* Creating space after the audience section */
 .spacer {
   height: 50px;
