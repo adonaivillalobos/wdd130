@@ -55,6 +55,14 @@ nav ul li a {
   height: auto;
   display: block;
 }
+.audience-text {
+  box-sizing: border-box;
+  font-family: Noto Sans;
+  font-size: medium;
+}
+.audience-title {
+  text-align: center; /* Center the Audience title */
+}
 /* Creating space after the audience section */
 .spacer {
   height: 50px;
