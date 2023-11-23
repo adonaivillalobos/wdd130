@@ -5,7 +5,7 @@ h1, h2, h3 {
     font-family: Merienda, cursive;
   }
 body {
-  background-color: rgb(72, 127, 215);
+  background-color: whitesmoke;
 }
 /* Ensuring the header takes full width */
 header {
