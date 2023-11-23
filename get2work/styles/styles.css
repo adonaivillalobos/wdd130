@@ -1,5 +1,5 @@
 /* Resetting default margin and padding */
-h1, h2, h3, ul, li {
+h1, h2, h3 {
     margin: 0;
     padding: 0;
     font-family: Merienda, cursive;
@@ -67,15 +67,6 @@ body {
     box-sizing: border-box;
     font-family: Noto Sans;
     font-size: medium;
-  }
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  ul li {
-    margin-bottom: 15px; /* Adjust the space between list items */
-    font-family: Noto Sans;
   }
 /* Creating space after the audience section */
 .spacer {
