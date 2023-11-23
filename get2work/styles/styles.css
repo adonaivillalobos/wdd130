@@ -42,7 +42,7 @@ nav ul li a {
   overflow: hidden;
 }
 .audience-content {
-  display: flex;
+  display: grid;
   flex-direction: row;
   margin: auto; /* Center the content */
 }
