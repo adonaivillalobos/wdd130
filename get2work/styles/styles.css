@@ -13,7 +13,7 @@ header {
   background-color: rgb(72, 127, 215); 
   text-align: center; /* Center align the content inside the header */
   padding: 0 auto; 
-  background-color: lightblue;
+  background-color: rgb(72, 127, 215);
   }
 /* Styling the logo */
 .logo img {
