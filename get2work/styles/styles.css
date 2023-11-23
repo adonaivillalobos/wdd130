@@ -37,32 +37,29 @@ nav ul li a {
 }
 /* Styling the audience section */
 .audience-section {
-  max-width: 800px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-.audience-content {
-  display: flex;
-  flex-direction: row;
-  width: 50%; /* Set the audience content to take up half of the page */
-  margin: 0 auto; /* Center the content */
-}
-.audience-image {
-  flex-basis: 40%; /* Adjusted to take up 40% of the audience content */
-  text-align: left; /* Align image to the left */
-  box-sizing: border-box;
-}
-.audience-image img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.audience-text {
-  flex-basis: 60%; /* Adjusted to take up 60% of the audience content */
-  box-sizing: border-box;
-  font-family: Noto Sans;
-  font-size: medium;
-}
+  .audience-section {
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .audience-content {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto; /* Center the content */
+  }
+  
+  .audience-image {
+    text-align: left; /* Align image to the left */
+    box-sizing: border-box;
+  }
+  
+  .audience-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
 /* Creating space after the audience section */
 .spacer {
   height: 50px;
