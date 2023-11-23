@@ -44,7 +44,7 @@ nav ul li a {
 .audience-content {
   display: flex;
   flex-direction: row;
-  margin: 0 auto; /* Center the content */
+  margin: auto; /* Center the content */
 }
 .audience-image {
   flex-basis: 40%; /* Adjusted to take up 40% of the audience content */
