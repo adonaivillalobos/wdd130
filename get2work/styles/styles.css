@@ -115,7 +115,7 @@ p {
     justify-content: left;
 }
   .title-frame {
-    background-color: #f2f2f2; /* Background color for the title frame */
+    background-color: #4e87eb; /* Background color for the title frame */
     padding: 8px; /* Adjust padding around the title */
     border-radius: 5px; /* Add rounded corners to the frame */
     display: inline-block; /* Display inline to fit content */
