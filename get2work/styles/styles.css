@@ -10,7 +10,7 @@ body {
 /* Ensuring the header takes full width */
 header {
   width: 100%;
-  background-color: lightblue; 
+  background-color: lightgrey; 
   text-align: center; /* Center align the content inside the header */
   padding: 0 auto;
   }
