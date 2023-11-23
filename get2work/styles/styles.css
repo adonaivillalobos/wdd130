@@ -36,6 +36,7 @@ nav ul li a {
   height: 50px;
 }
 /* Audience Section */
+/* Audience Section */
 .audience-section {
   max-width: 800px;
   margin: 0 auto;
@@ -45,6 +46,7 @@ nav ul li a {
   display: grid; /* Use CSS Grid */
   grid-template-columns: 1fr 1fr; /* Two columns layout */
   grid-gap: 80px; /* Space between columns */
+  align-items: center; /* Center align items vertically */
 }
 
 .audience-image img {
@@ -56,11 +58,15 @@ nav ul li a {
 .audience-text {
   font-family: Noto Sans;
   font-size: 18px;
+  text-align: justify;
+  align-self: center; /* Align text vertically */
 }
+
 /* Creating space after the audience section */
 .spacer {
   height: 50px;
 }
+/* Vision/Purpose Section */
 .vision-section {
   max-width: 800px;
   margin: 0 auto;
@@ -70,6 +76,7 @@ nav ul li a {
   display: grid; /* Use CSS Grid */
   grid-template-columns: 1fr 1fr; /* Two columns layout */
   grid-gap: 80px; /* Space between columns */
+  align-items: center; /* Center align items vertically */
 }
 
 .vision-image img {
@@ -81,6 +88,8 @@ nav ul li a {
 .vision-text {
   font-family: Noto Sans;
   font-size: 18px;
+  text-align: justify;
+  align-self: center; /* Align text vertically */
 }
   
 p {
