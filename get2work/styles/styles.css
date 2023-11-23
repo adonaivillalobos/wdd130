@@ -156,7 +156,7 @@ p {
   text-align: justify; /* Align text */
   width: 100%; /* Set the width to occupy the entire space */
   line-height: 1.6; /* Increase line height for space between lines */
-  font-family: 'Noto Sans', sans-serif; /* Set font family to Noto Sans */
+  font-family: Noto Sans; /* Set font family to Noto Sans */
 }
 footer a {
   color: white;
