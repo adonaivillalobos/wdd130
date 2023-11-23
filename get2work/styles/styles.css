@@ -42,9 +42,10 @@ nav ul li a {
   overflow: hidden;
 }
 .audience-content {
-  display: grid;
+  display: flex;
   flex-direction: row;
-  margin: auto; /* Center the content */
+  width: 50%; /* Set the audience content to take up half of the page */
+  margin: 0 auto; /* Center the content */
 }
 .audience-image {
   flex-basis: 40%; /* Adjusted to take up 40% of the audience content */
