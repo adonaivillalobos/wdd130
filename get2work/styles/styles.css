@@ -7,70 +7,62 @@ h1, h2, h3 {
 body {
   background-color: lightblue;
 }
-  /* Ensuring the header takes full width */
-  header {
-    width: 100%;
-    background-color: white; 
-    text-align: center; /* Center align the content inside the header */
-    padding: 0 auto; 
-    background-color: lightblue;
+/* Ensuring the header takes full width */
+header {
+  width: 100%;
+  background-color: white; 
+  text-align: center; /* Center align the content inside the header */
+  padding: 0 auto; 
+  background-color: lightblue;
   }
-  
-  /* Styling the logo */
-  .logo img {
-    max-width: 100%; /* Ensure the logo doesn't exceed the container's width */
-  }
-  
-  /* Styling the navigation */
-  nav ul {
-    list-style: none;
-    margin-top: 15px; /* Adjust the space between logo and navigation */
-  }
-  
-  nav ul li {
-    display: inline;
-    margin: 0 40px; /* Adjust the space between navigation items */
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: grey
-  }
-  .spacer {
-    height: 50px;
-  }
-    /* Styling the audience section */
-    .audience-section {
-      max-width: 800px;
-      margin: 0 auto;
-      overflow: hidden;
-    }
-    
-    .audience-content {
-      display: flex;
-      flex-direction: row;
-      width: 50%; /* Set the audience content to take up half of the page */
-      margin: 0 auto; /* Center the content */
-    }
-    
-    .audience-image {
-      flex-basis: 40%; /* Adjusted to take up 40% of the audience content */
-      text-align: left; /* Align image to the left */
-      box-sizing: border-box;
-    }
-    
-    .audience-image img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-    
-    .audience-text {
-      flex-basis: 60%; /* Adjusted to take up 60% of the audience content */
-      box-sizing: border-box;
-      font-family: Noto Sans;
-      font-size: medium;
-    } 
+/* Styling the logo */
+.logo img {
+  max-width: 100%; /* Ensure the logo doesn't exceed the container's width */
+}
+/* Styling the navigation */
+nav ul {
+  list-style: none;
+  margin-top: 15px; /* Adjust the space between logo and navigation */
+}
+nav ul li {
+  display: inline;
+  margin: 0 40px; /* Adjust the space between navigation items */
+}
+nav ul li a {
+  text-decoration: none;
+  color: grey
+}
+.spacer {
+  height: 50px;
+}
+/* Styling the audience section */
+.audience-section {
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.audience-content {
+  display: flex;
+  flex-direction: row;
+  width: 50%; /* Set the audience content to take up half of the page */
+  margin: 0 auto; /* Center the content */
+}
+.audience-image {
+  flex-basis: 40%; /* Adjusted to take up 40% of the audience content */
+  text-align: left; /* Align image to the left */
+  box-sizing: border-box;
+}
+.audience-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.audience-text {
+  flex-basis: 60%; /* Adjusted to take up 60% of the audience content */
+  box-sizing: border-box;
+  font-family: Noto Sans;
+  font-size: medium;
+}
 /* Creating space after the audience section */
 .spacer {
   height: 50px;
@@ -118,11 +110,9 @@ p {
   margin: 20px auto 50px; /* Adjust top and bottom margin */
   font-family: Noto Sans;
 }
-
 .courses-section h2 {
   margin-top: 0; /* Remove top margin of the h2 */
 }
-
 .courses-images {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Grid layout */
@@ -130,7 +120,6 @@ p {
   justify-content: center; /* Center images horizontally */
   margin-top: 20px; /* Add space between heading and images */
 }
-
 .course-image img {
   width: 100%; /* Make the images fill their containers */
   height: auto;
@@ -174,17 +163,14 @@ footer {
   justify-content: space-between;
   padding: 20px;
 }
-
 .container aside {
   flex: 0 0 calc(50% - 10px);
   margin: 0 5px;
 }
-
 .container img {
   width: 100%;
   height: auto;
 }
-
 .about-section p {
   text-align: left;
   text-justify: none;
@@ -192,7 +178,6 @@ footer {
   font-size: medium;
   font-family: Noto Sans;
 }
-
 .interests-section ul {
   text-align: left;
   text-justify: none;
@@ -205,11 +190,9 @@ footer {
   margin: 0 auto;
   padding: 20px; /* Adjust padding for content separation */
 }
-
 .course h2 {
   margin-bottom: 20px; /* Add margin below the h2 element */
 }
-
 .course h3 {
   text-align: center;
   background-color: #4b73df;
@@ -220,7 +203,6 @@ footer {
   width: calc(100% - 40px); /* Adjust to account for padding */
   margin-left: -20px; /* Adjust to account for padding */
 }
-
 .course p {
   text-align: left;
   margin-left: 30px; /* Indent the text for better readability */
@@ -228,7 +210,6 @@ footer {
   font-family: Noto Sans;
   font-size: medium;
 }
-
 .course ul {
   text-align: left;
   margin-left: 30px; /* Indent the text for better readability */
