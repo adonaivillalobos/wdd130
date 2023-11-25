@@ -23,14 +23,18 @@ nav ul {
   list-style: none;
   margin-top: 15px; /* Adjust the space between logo and navigation */
 }
+
 nav ul li {
   display: inline;
   margin: 0 40px; /* Adjust the space between navigation items */
+  line-height: 50px; /* Change this value to adjust the vertical alignment */
 }
+
 nav ul li a {
   text-decoration: none;
   color: black;
 }
+
 .spacer {
   height: 50px;
 }
