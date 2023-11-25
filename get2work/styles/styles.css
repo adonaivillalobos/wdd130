@@ -249,6 +249,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  padding-top: 0.5px;
 }
 
 /* Style the links inside the navigation bar */
