@@ -26,7 +26,7 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin: 0 25px; /* Adjust the space between navigation items */
+  margin: 0 45px; /* Adjust the space between navigation items */
   line-height: 50px; /* Change this value to adjust the vertical alignment */
 }
 
