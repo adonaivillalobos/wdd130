@@ -21,13 +21,14 @@ header {
 /* Styling the navigation */
 nav ul {
   list-style: none;
-  margin-top: 10px; /* Adjust the space between logo and navigation */
+  margin-top: 15px; /* Adjust the space between logo and navigation */
 }
 
 nav ul li {
   display: inline;
-  margin: 0 45px; /* Adjust the space between navigation items */
+  margin: 0 20px; /* Adjust the space between navigation items */
   line-height: 50px; /* Change this value to adjust the vertical alignment */
+  padding: 5px 10px; /* Adjust the padding around each navigation item */
 }
 
 nav ul li a {
