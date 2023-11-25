@@ -155,6 +155,11 @@ p {
   line-height: 1.6; /* Increase line height for space between lines */
   font-family: Noto Sans; /* Set font family to Noto Sans */
 }
+/* Adding a hover effect to the images */
+.course-image:hover img {
+  opacity: 0.8; /* Reduce opacity of the image on hover */
+  transition: opacity 0.3s ease; /* Add a smooth transition effect */
+}
 footer a {
   color: white;
   text-decoration: none;
