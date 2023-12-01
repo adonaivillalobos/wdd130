@@ -189,20 +189,20 @@ footer {
 
 .container {
   display: flex;
-  justify-content: space-between;
   padding: 20px;
 }
 
-.container aside {
-  flex: 0 0 calc(50% - 10px);
-  margin: 0 5px;
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-right: 20px; /* Added margin to create space between card and introduction */
 }
 
-.container img {
-  width: 100%;
-  height: auto;
+.introduction {
+  flex: 1; /* Take remaining space beside the card */
 }
 
+/* Retaining the existing styles for other elements */
 .about-section p {
   text-align: left;
   line-height: 1.8;
@@ -214,13 +214,6 @@ footer {
   text-align: left;
   font-size: medium;
   font-family: 'Noto Sans', sans-serif;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
 }
 
 .title {
@@ -251,7 +244,6 @@ button:hover,
 a:hover {
   opacity: 0.7;
 }
-
 
 /* course page CSS start now*/
 .course-content {
