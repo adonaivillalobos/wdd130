@@ -186,7 +186,6 @@ footer {
   align-items: center;
 }
 /* About Me page CSS */
-/* About Me page CSS */
 
 .container {
   display: flex;
@@ -213,16 +212,24 @@ footer {
 }
 
 .introduction .about-section h2 {
-  font-size: 24px;
+  font-size: 28px; /* Increased font size for the introduction title */
   /* Additional styles for the introduction title */
 }
 
 .introduction .about-section p {
   text-align: center;
-  line-height: 1.8;
-  font-size: medium;
+  line-height: 2; /* Increased line height for more spacing */
+  font-size: 20px; /* Increased font size for the introduction text */
   font-family: 'Noto Sans', sans-serif;
   /* Other paragraph styles for introduction text */
+}
+
+.interest-section ul {
+  text-align: center;
+  font-size: 20px; /* Increased font size for the interests */
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 2; /* Increased line height for more spacing */
+  /* Other styles for interest list */
 }
 
 /* Retain the existing styles for other elements */
