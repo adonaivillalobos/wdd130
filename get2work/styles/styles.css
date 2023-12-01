@@ -190,7 +190,6 @@ footer {
 .container {
   display: flex;
   padding: 20px;
-  align-items: flex-start; /* Align items at the top */
 }
 
 .card {
@@ -200,7 +199,9 @@ footer {
 }
 
 .introduction {
-  flex: 1; /* Take remaining space beside the card */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 /* Styles for introduction title and text */
