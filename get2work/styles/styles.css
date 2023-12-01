@@ -221,14 +221,14 @@ footer {
   text-align: center;
   line-height: 2; /* Increased line height for more spacing */
   font-size: 20px; /* Increased font size for the introduction text */
-  font-family: 'Noto Sans', sans-serif;
+  font-family: Noto Sans;
   /* Other paragraph styles for introduction text */
 }
 
 .interest-section ul {
   text-align: left; /* Align text from the interest section to the left */
   font-size: 20px; /* Increased font size for the interests */
-  font-family: 'Noto Sans', sans-serif;
+  font-family: Noto Sans;
   line-height: 2; /* Increased line height for more spacing */
   margin-top: 20px; /* Added margin between introduction text and interest title */
   /* Other styles for interest list */
