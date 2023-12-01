@@ -185,34 +185,38 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
-/* about me page css */
+/* About Me page CSS */
+
 .container {
   display: flex;
   justify-content: space-between;
   padding: 20px;
 }
+
 .container aside {
   flex: 0 0 calc(50% - 10px);
   margin: 0 5px;
 }
+
 .container img {
   width: 100%;
   height: auto;
 }
+
 .about-section p {
   text-align: left;
-  text-justify: none;
-  line-height: 1.8; /* Increase line height for the "Introduction" section */
+  line-height: 1.8;
   font-size: medium;
-  font-family: Noto Sans;
+  font-family: 'Noto Sans', sans-serif;
 }
-.interests-section ul {
+
+.interest-section ul {
   text-align: left;
-  text-justify: none;
   font-size: medium;
-  font-family: Noto Sans;
+  font-family: 'Noto Sans', sans-serif;
 }
-card {
+
+.card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
@@ -243,9 +247,11 @@ a {
   color: black;
 }
 
-button:hover, a:hover {
+button:hover,
+a:hover {
   opacity: 0.7;
 }
+
 
 /* course page CSS start now*/
 .course-content {
