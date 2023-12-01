@@ -128,38 +128,45 @@ p {
 .spacer {
   height: 50px;
 }
+/* CSS for the course section */
+
 .courses-section {
-  text-align: center; /* Center align the content */
-  margin: 20px auto 50px; /* Adjust top and bottom margin */
-  font-family: Noto Sans;
+  text-align: center;
+  margin: 20px auto 50px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px; /* Increased font size */
+  line-height: 1.6; /* Increased line height for space between lines */
 }
+
 .courses-section h2 {
-  margin-top: 0; /* Remove top margin of the h2 */
+  margin-top: 0;
 }
-.courses-images {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Grid layout */
-  gap: 20px; /* Add space between images */
-  justify-content: center; /* Center images horizontally */
-  margin-top: 20px; /* Add space between heading and images */
+
+.courses-section .course {
+  margin-bottom: 40px; /* Add space between courses */
 }
-.course-image img {
-  width: 100%; /* Make the images fill their containers */
-  height: auto;
-  max-width: 150px;
+
+.courses-section h3 {
+  margin-bottom: 10px; /* Add space below course titles */
 }
-.course-image p {
-  margin-top: 30px; /* Add space between image and text */
-  text-align: justify; /* Align text */
-  width: 100%; /* Set the width to occupy the entire space */
-  line-height: 1.6; /* Increase line height for space between lines */
-  font-family: Noto Sans; /* Set font family to Noto Sans */
+
+.courses-section p {
+  text-align: justify; /* Justify text */
 }
-/* Adding a hover effect to the images */
-.course-image:hover img {
+
+.courses-section ul {
+  text-align: left; /* Align bullet points to the left */
+}
+
+/* Hover effect for course images */
+.courses-section .course-image:hover img {
   opacity: 0.8; /* Reduce opacity of the image on hover */
   transition: opacity 0.3s ease; /* Add a smooth transition effect */
 }
+
+/* Other existing styles */
+/* Include other existing styles here */
+
 /*Footer*/
 footer a {
   color: white;
