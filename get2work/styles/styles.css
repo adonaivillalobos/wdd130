@@ -186,10 +186,12 @@ footer {
   align-items: center;
 }
 /* About Me page CSS */
+/* About Me page CSS */
 
 .container {
   display: flex;
   padding: 20px;
+  align-items: flex-start; /* Align items at the top */
 }
 
 .card {
@@ -202,20 +204,25 @@ footer {
   flex: 1; /* Take remaining space beside the card */
 }
 
-/* Retaining the existing styles for other elements */
-.about-section p {
+/* Styles for introduction title and text */
+.introduction .about-section {
+  text-align: left;
+}
+
+.introduction .about-section h2 {
+  font-size: 24px;
+  /* Additional styles for the introduction title */
+}
+
+.introduction .about-section p {
   text-align: left;
   line-height: 1.8;
   font-size: medium;
   font-family: 'Noto Sans', sans-serif;
+  /* Other paragraph styles for introduction text */
 }
 
-.interest-section ul {
-  text-align: left;
-  font-size: medium;
-  font-family: 'Noto Sans', sans-serif;
-}
-
+/* Retain the existing styles for other elements */
 .title {
   color: grey;
   font-size: 18px;
