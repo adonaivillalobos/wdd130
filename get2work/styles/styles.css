@@ -225,7 +225,7 @@ footer {
   /* Other paragraph styles for introduction text */
 }
 
-.interest-section ul, h2 {
+.interest-section ul {
   text-align: left; /* Align text from the interest section to the left */
   font-size: 18px; /* Increased font size for the interests */
   font-family: Noto Sans;
