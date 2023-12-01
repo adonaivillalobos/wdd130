@@ -190,7 +190,7 @@ footer {
 .container {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start; /* Align items at the top */
   padding: 20px;
 }
 
@@ -203,8 +203,6 @@ footer {
 .introduction {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 /* Styles for introduction title and text */
@@ -228,7 +226,7 @@ footer {
 }
 
 .interest-section ul {
-  text-align: center;
+  text-align: left; /* Align text from the interest section to the left */
   font-size: 20px; /* Increased font size for the interests */
   font-family: 'Noto Sans', sans-serif;
   line-height: 2; /* Increased line height for more spacing */
@@ -265,8 +263,6 @@ button:hover,
 a:hover {
   opacity: 0.7;
 }
-
-
 /* course page CSS start now*/
 .course-content {
   max-width: 600px; /* Adjust the maximum width as needed */
