@@ -227,10 +227,10 @@ footer {
 
 .interest-section ul {
   text-align: left; /* Align text from the interest section to the left */
-  font-size: 20px; /* Increased font size for the interests */
+  font-size: 18px; /* Increased font size for the interests */
   font-family: Noto Sans;
   line-height: 2; /* Increased line height for more spacing */
-  margin-top: 20px; /* Added margin between introduction text and interest title */
+  margin-top: 35px; /* Added margin between introduction text and interest title */
   /* Other styles for interest list */
 }
 
