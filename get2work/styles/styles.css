@@ -186,27 +186,30 @@ footer {
   align-items: center;
 }
 /* About Me page CSS */
+/* About Me page CSS */
 
 .container {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   padding: 20px;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
-  margin-right: 20px; /* Added margin to create space between card and introduction */
 }
 
 .introduction {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Styles for introduction title and text */
 .introduction .about-section {
-  text-align: left;
+  text-align: center;
 }
 
 .introduction .about-section h2 {
@@ -215,7 +218,7 @@ footer {
 }
 
 .introduction .about-section p {
-  text-align: left;
+  text-align: center;
   line-height: 1.8;
   font-size: medium;
   font-family: 'Noto Sans', sans-serif;
