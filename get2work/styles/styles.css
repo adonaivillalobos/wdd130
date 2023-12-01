@@ -227,7 +227,7 @@ footer {
 .interest-section ul {
   text-align: center;
   font-size: 20px; /* Increased font size for the interests */
-  font-family: 'Noto Sans', sans-serif;
+  font-family: Noto Sans;
   line-height: 2; /* Increased line height for more spacing */
   /* Other styles for interest list */
 }
